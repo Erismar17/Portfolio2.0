@@ -1,0 +1,12 @@
+.navbar-buttons {
+    padding-inline: 3rem;
+    font-size: large;
+    font-weight: bold;
+}
+
+.navbar-buttons:hover {
+    background: linear-gradient(45deg, #EC0E89);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+}

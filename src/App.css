@@ -1,0 +1,29 @@
+.light body {
+    height: 100dvh;
+    background: linear-gradient(-90deg, #e25bba, #7857A8, #942C5F, #4489C8, #e25bba);
+    background-size: 400% 400%;
+    animation: gradientMove 10s ease infinite;
+}
+
+.dark body {
+    height: 100dvh;
+    background: linear-gradient(-90deg, #530e3f, #260b4e, #490526, #072c4e, #530e3f);
+    background-size: 400% 400%;
+    animation: gradientMove 10s ease infinite;
+    color: white;
+}
+
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
